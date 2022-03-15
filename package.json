@@ -1,0 +1,35 @@
+{
+    "name": "evergrid",
+    "version": "0.0.1",
+    "description": "",
+    "main": "evergrid.js",
+    "directories": {
+        "example": "example"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "precommit": "npx webpack"
+    },
+    "husky": {
+        "hooks": {
+            "pre-commit": "precommit"
+        }
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/YokoyamaLab/EverGrid.git"
+    },
+    "author": "Shohei Yokoyama",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/YokoyamaLab/EverGrid/issues"
+    },
+    "homepage": "https://github.com/YokoyamaLab/EverGrid#readme",
+    "devDependencies": {
+        "husky": "^7.0.4",
+        "terser": "^5.12.1",
+        "terser-webpack-plugin": "^5.3.1",
+        "webpack": "^5.70.0",
+        "webpack-cli": "^4.9.2"
+    }
+}
