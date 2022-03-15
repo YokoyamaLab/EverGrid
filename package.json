@@ -9,11 +9,6 @@
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "husky": {
-        "hooks": {
-            "pre-commit": "npx webpack"
-        }
-    },
     "repository": {
         "type": "git",
         "url": "git+https://github.com/YokoyamaLab/EverGrid.git"
@@ -25,7 +20,6 @@
     },
     "homepage": "https://github.com/YokoyamaLab/EverGrid#readme",
     "devDependencies": {
-        "husky": "^7.0.4",
         "terser": "^5.12.1",
         "terser-webpack-plugin": "^5.3.1",
         "webpack": "^5.70.0",
