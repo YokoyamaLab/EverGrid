@@ -7,12 +7,11 @@
         "example": "example"
     },
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
-        "precommit": "npx webpack"
+        "test": "echo \"Error: no test specified\" && exit 1"
     },
     "husky": {
         "hooks": {
-            "pre-commit": "precommit"
+            "pre-commit": "npx webpack"
         }
     },
     "repository": {
@@ -26,7 +25,7 @@
     },
     "homepage": "https://github.com/YokoyamaLab/EverGrid#readme",
     "devDependencies": {
-        "husky": "^3.1.0",
+        "husky": "^7.0.4",
         "terser": "^5.12.1",
         "terser-webpack-plugin": "^5.3.1",
         "webpack": "^5.70.0",
